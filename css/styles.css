@@ -3,10 +3,11 @@ body {
 }
 
 .logo {
-  color: bisque;
-
-  
+  color: green;
+  text-decoration: underline;
+  font-family: 'Raleway'
 }
+
 .nav-menu {
    font-family: Roboto;
     font-size: 16px;
@@ -18,7 +19,4 @@ body {
     color: #2E2F42;
 }
 
-.header-link {
-
-}
 
