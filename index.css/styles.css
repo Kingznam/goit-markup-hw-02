@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'raleway';
+  font-weight: 800;
+  src: url('../fonts/Raleway-ExtraBold.ttf') format('ttf');
+}
+
+.nav-menu {
+  font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+    color: #2E2F42;
+}
