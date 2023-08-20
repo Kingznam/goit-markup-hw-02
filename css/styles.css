@@ -22,13 +22,22 @@ header {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
-.link:hover {
-  color: Iris #4D5AE5;
+.nav-menu-list .nav-menu-link:hover {
+  color: #404BBF;
+}
+
+.address-link .address-link-text:hover {
+    color: #404BBF;
+}
+
+.filter-button .filter-button-text:hover{
+  background-color: #404BBF;
+  color:#FFF;
+
 }
 
 .nav-menu-list {
@@ -43,8 +52,7 @@ header {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
   color: #434455;
 }
@@ -55,18 +63,21 @@ header {
 .hero-text {
   color: #FFF;
   text-align: center;
-  font-size: normal;
+  font-size: 50px;
   font-weight: 700;
-  letter-spacing: 1.12px;
+  letter-spacing: 1.07143px;
 }
 
 .hero-button {
   background-color: #4D5AE5;
   color:#FFF;
+  cursor: pointer;
 }
+
 
 .filter-button {
   list-style: none;
+  cursor: pointer;
 }
 
 .filter-button-text {
@@ -81,18 +92,14 @@ h3 {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  /* 120% */
+  line-height: 1.2;
   letter-spacing: 0.4px;
   color: #2E2F42;
 }
 
 p {
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
   color: #434455;
 }
@@ -106,8 +113,7 @@ h2 {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
-  /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   color: #2E2F42;
@@ -138,8 +144,7 @@ footer p {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
   color: #F4F4FD;
 
