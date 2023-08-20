@@ -65,6 +65,18 @@ header {
   color:#FFF;
 }
 
+.filter-button {
+  list-style: none;
+}
+
+.filter-button-text {
+  color:#4D5AE5;
+}
+
+.project-card-images {
+  list-style-type: none;
+}
+
 h3 {
   font-size: 20px;
   font-style: normal;
@@ -132,3 +144,4 @@ footer p {
   color: #F4F4FD;
 
 }
+
