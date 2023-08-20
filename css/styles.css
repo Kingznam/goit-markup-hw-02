@@ -4,12 +4,14 @@ body {
 
 .logo {
   color: green;
-  text-decoration: underline;
-  font-family: 'Raleway'
+  text-decoration: none;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  
 }
 
 .nav-menu {
-   font-family: Roboto;
+    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -17,6 +19,23 @@ body {
     /* 150% */
     letter-spacing: 0.32px;
     color: #2E2F42;
+    text-decoration: none;
 }
 
+.hero {
+  background-color:#2E2F42 ;
+  color: #FFF;
+  text-align: center;
+  font-size: normal;
+  font-weight: 700;
+  letter-spacing: 1.12px;
 
+
+}
+
+.hero-button {
+  background-color: #4D5AE5;
+  color:#FFF;
+
+  
+}
