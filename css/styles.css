@@ -1,3 +1,16 @@
+:root {
+ --navy-blue: #2e2f42;
+ --slate: #434455;
+ --cloud: #f4f4fd;
+ --iris: #4d5ae5;
+ --orange: #e7791f;
+ --ocean: #404bbf;
+ --cornflower: #e7e9fc;
+ --white: #fff;
+ --blue: #0000ff;
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
@@ -7,18 +20,17 @@ a {
   text-decoration: none;
 }
 header {
-  color: #2E2F42;
+  color: var(--navy-blue)
 }
 
 .logo {
-  color: green;
   text-decoration: none;
   font-family: 'Raleway';
   text-transform: uppercase;
 }
 
 .nav-menu-link {
-  color: #2E2F42;
+  color: var(--navy-blue);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -27,16 +39,16 @@ header {
 }
 
 .nav-menu-list .nav-menu-link:hover {
-  color: #404BBF;
+  color: var(--ocean);
 }
 
-.address-link .address-link-text:hover {
-    color: #404BBF;
+.address .address-link:hover {
+    color: var(--ocean);
 }
 
 .filter-button .filter-button-text:hover{
-  background-color: #404BBF;
-  color:#FFF;
+  background-color: var(--ocean);
+  color: var(--white);
 
 }
 
@@ -44,24 +56,24 @@ header {
   list-style: none;
 }
 
-.address-link {
+.address {
   list-style: none;
 }
 
-.address-link > a {
+.address-link {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: #434455;
+  color: var(--slate);
 }
 .hero {
-  background-color:#2E2F42 ;
+  background-color: var(--navy-blue);
 }
 
 .hero-text {
-  color: #FFF;
+  color: var(--white);
   text-align: center;
   font-size: 50px;
   font-weight: 700;
@@ -69,8 +81,8 @@ header {
 }
 
 .hero-button {
-  background-color: #4D5AE5;
-  color:#FFF;
+  background-color: var(--iris);
+  color: var(--white);
   cursor: pointer;
 }
 
@@ -81,7 +93,7 @@ header {
 }
 
 .filter-button-text {
-  color:#4D5AE5;
+  color: var(--iris);
 }
 
 .project-card-images {
@@ -94,17 +106,17 @@ h3 {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-  color: #2E2F42;
+  color: var(--navy-blue);
 }
 
 p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: #434455;
+  color: var(--slate);
 }
 
-.features-header {
+.features-item {
   list-style-type: none;
 }
 
@@ -116,7 +128,7 @@ h2 {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  color: #2E2F42;
+  color: var(--navy-blue);
 }
 
 .service-images {
@@ -124,7 +136,7 @@ h2 {
 }
 
 .team {
-  background-color: #F4F4FD;
+  background-color: var(--cloud);
 }
 
 .team-text {
@@ -136,7 +148,7 @@ h2 {
 }
 
 footer {
-  background-color: #2E2F42;
+  background-color: var(--navy-blue);
 }
 
 footer p {
@@ -146,7 +158,7 @@ footer p {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: #F4F4FD;
+  color: var(--cloud);
 
 }
 
