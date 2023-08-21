@@ -46,7 +46,7 @@ header {
     color: var(--ocean);
 }
 
-.filter-button .filter-button-text:hover{
+.filter-button .button-text:hover{
   background-color: var(--ocean);
   color: var(--white);
 
@@ -89,11 +89,11 @@ header {
 
 .filter-button {
   list-style: none;
-  cursor: pointer;
 }
 
-.filter-button-text {
+.button-text {
   color: var(--iris);
+  cursor: pointer;
 }
 
 .project-card-images {
