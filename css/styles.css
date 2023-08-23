@@ -78,7 +78,7 @@ ul {
     color: var(--ocean);
 }
 
-.filter-button .button-text:hover{
+.filter-item .filter-button:hover{
   background-color: var(--ocean);
   color: var(--white);
 
