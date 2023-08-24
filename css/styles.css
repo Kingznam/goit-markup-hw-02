@@ -81,7 +81,6 @@ ul {
 .filter-item .filter-button:hover{
   background-color: var(--ocean);
   color: var(--white);
-
 }
 
 .nav-menu-list {
@@ -112,6 +111,10 @@ ul {
   line-height: 1.07em;
 }
 
+.hero-button:hover {
+  background-color: var(--ocean);
+}
+
 .hero-button {
   background-color: var(--iris);
   color: var(--white);
@@ -126,6 +129,7 @@ ul {
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.64px;
+  font-family: inherit;
 }
 
 
@@ -133,7 +137,7 @@ ul {
   list-style: none;
 }
 
-.button-text {
+.filter-button {
   color: var(--iris);
   background-color: var(--cloud);
   cursor: pointer;
@@ -145,6 +149,7 @@ ul {
   border-radius: 4px;
   outline: none;
   border: 1px solid var(--cornflower);
+  font-family: inherit;
 }
 
 .project-card-list {
