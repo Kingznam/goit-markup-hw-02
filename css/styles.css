@@ -47,6 +47,10 @@ ul {
   padding: 0;
 }
 
+.address {
+  font-style: normal;
+}
+
 .logo {
   text-decoration: none;
   font-family: 'Raleway';
@@ -88,7 +92,6 @@ ul {
 
 .address-link {
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5em;
   letter-spacing: 0.32px;
   color: var(--slate);
@@ -101,7 +104,6 @@ ul {
   color: var(--white);
   text-align: center;
   font-size: 56px;
-  font-weight: 700;
   letter-spacing: 1.12px;
   line-height: 1.07em;
 }
@@ -183,15 +185,22 @@ ul {
 .section-header {
   text-align: center;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.20em;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   color: var(--navy-blue);
 }
 
+.features-item .section-sub-header {
+  text-align: left;
+}
+
 .service-images {
   list-style: none;
+}
+
+.service .section-main-header {
+  text-align: center;
 }
 
 .team {
@@ -210,6 +219,14 @@ ul {
 
 .team-images {
   list-style-type: none;
+}
+
+.team-images .section-text {
+  text-align: center;
+}
+
+.team .section-main-header {
+  text-align: center;
 }
 
 footer {
