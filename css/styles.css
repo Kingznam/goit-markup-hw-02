@@ -160,7 +160,7 @@ ul {
 
 }
 
-h3 {
+.section-sub-header {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -169,7 +169,7 @@ h3 {
   color: var(--navy-blue);
 }
 
-p {
+.section-text {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.32px;
@@ -180,7 +180,7 @@ p {
   list-style-type: none;
 }
 
-h2 {
+.section-header {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -198,8 +198,14 @@ h2 {
   background-color: var(--cloud);
 }
 
-.team-text {
+.section-sub-header {
   text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.4px;
+  color: var(--navy-blue);
 }
 
 .team-images {
